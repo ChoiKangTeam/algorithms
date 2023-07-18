@@ -5,6 +5,6 @@ let [t, s] = require("fs")
 	.split(' ')
 	.map(Number);
 if (12 <= t && t <= 16 && s === 0) 
-	console.log("320");
+	console.log(320);
 else 
-	console.log("280");
+	console.log(280);
