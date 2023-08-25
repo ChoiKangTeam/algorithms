@@ -4,7 +4,7 @@ int dp[10001];
 int v[101];
 
 int main(void) {
-	int n, k, temp;
+	int n, k;
 
 	std::cin >> n >> k;
 	for (int i = 0; i < n; i++) std::cin >> v[i];
